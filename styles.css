@@ -4,7 +4,19 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: #426696;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #426696;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
 main {
+  font-family: "Poppins", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,6 +37,7 @@ main {
   border-radius: 20px;
   z-index: 3;
   backdrop-filter: blur(10px);
+  display: flex;
 }
 
 .circle-1,
@@ -49,4 +62,59 @@ main {
 .circle-2 {
   bottom: 5%;
   left: 10%;
+}
+
+.dashboard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  background: #fff;
+  border-radius: 20px 0 0 20px;
+}
+
+.link {
+  display: flex;
+  margin: 10px 0;
+  padding: 10px 50px;
+  align-items: center;
+}
+
+.link h2 {
+  padding: 0 20px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #658ec6;
+  opacity: 0.8;
+}
+
+.link img {
+  height: 30px;
+}
+
+.games {
+  flex: 2;
+}
+
+.pro {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.pro h2 {
+  font-weight: 500;
+  font-size: 15px;
+  width: 40%;
+}
+
+.pro img {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+  height: 120px;
 }
